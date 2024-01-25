@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useRef } from 'react';
+import { ProjectSheet } from '@/app/ui/ProjectSheet';
 
 export const Navbar = () => {
   return (
@@ -7,9 +8,14 @@ export const Navbar = () => {
         <a href="https://drive.google.com/file/d/1rqjmTBOe7xLWDAyTb8ers8E9hBuyd8To/view?usp=drive_link" target="_blank" className="text-black hover:text-black px-2 py-2 rounded-md text-s font-semibold underline-link relative">
           CV
         </a>
-        <a href="/locations" className="text-black hover:text-black px-2 py-2 rounded-md text-s font-semibold underline-link relative">
+        
+        <ProjectSheet trigger={
+          <a href="#" className="text-black hover:text-black px-2 py-2 rounded-md text-s font-semibold underline-link relative">
           PROJECTS
         </a>
+        }>
+
+        </ProjectSheet>
       </div>
       <div className="w-1/3 flex justify-center">
         <span className="font-bold text-3xl tracking-tight">ENZO INCUTTI</span>
