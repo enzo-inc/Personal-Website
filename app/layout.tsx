@@ -1,5 +1,5 @@
 import React from 'react';
-import { roboto } from '@/app/fonts';
+import { roboto, roboto_mono, roboto_condensed, roboto_flex, courierPrime, inter } from '@/app/fonts';
 import './globals.css';
 
 export const metadata = {
@@ -10,7 +10,7 @@ export const metadata = {
 export default function RootLayout({ children } : {children: React.ReactNode}) {
   return (
     <html lang="en">
-      <body className={`${roboto.className} flex flex-col min-h-screen`}>
+      <body className={`${roboto_flex.className} flex flex-col min-h-screen`}>
         {children}
       </body>
     </html>
