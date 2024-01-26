@@ -21,9 +21,9 @@ export function ProjectSheet({trigger} : {trigger: React.ReactNode}) {
       <SheetTrigger asChild>
         {trigger}
       </SheetTrigger>
-      <SheetContent side={'left'} className="sm:w-[700px]">
+      <SheetContent side={'left'} className="sm:w-[750px]">
         <SheetHeader>
-          <SheetTitle>Projects</SheetTitle>
+          <SheetTitle className="text-2xl">Projects</SheetTitle>
           {/* <SheetDescription>
             Test
           </SheetDescription> */}

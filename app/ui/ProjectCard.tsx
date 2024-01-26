@@ -23,7 +23,7 @@ export const ProjectCard =  () => {
                 <CardFooter>
                     <p>Card Footer</p>
                 </CardFooter>
-                <Separator className="my-2" />
+                <Separator className="my-2 mx-4 mr-10 bg-black" />
             </Card>
     )
 
