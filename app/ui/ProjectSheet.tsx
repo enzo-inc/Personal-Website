@@ -33,7 +33,7 @@ export function ProjectSheet({trigger} : {trigger: React.ReactNode}) {
       <SheetTrigger asChild>
         {trigger}
       </SheetTrigger>
-      <SheetContent side={'left'} className="sm:w-[750px]">
+      <SheetContent side={'left'} className="sm:w-[750px]" onOpenAutoFocus={(e) => e.preventDefault()}>
         <SheetHeader>
           <SheetTitle className="text-2xl">Projects</SheetTitle>
           {/* <SheetDescription>
