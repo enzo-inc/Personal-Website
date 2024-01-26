@@ -11,7 +11,7 @@ export const Footer = () => {
           <p className={`${courierPrime.className} mt-5 font-thin text-left border-t-10 border-transparent`}>
            2024. Made by me using
             <a href="https://react.dev/" target="_blank" rel="noopener noreferrer" className={linkClass}> React</a>, 
-            <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer" className={linkClass}> Next.js 14</a>,
+            <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer" className={linkClass}> Next.js</a>,
             <a href="https://vercel.com/" target="_blank" rel="noopener noreferrer" className={linkClass}> Vercel</a>,
             <a href="https://tailwindcss.com/" target="_blank" rel="noopener noreferrer" className={linkClass}> Tailwind CSS</a> and
             <a href="https://ui.shadcn.com/" target="_blank" rel="noopener noreferrer" className={linkClass}> shadcn/ui</a> ~  

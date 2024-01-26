@@ -15,11 +15,6 @@ export const MainContent = () => {
     setTyping(!typing);
   }
 
-  // React.useEffect(() => {
-  //   setTimeout(() => {
-  //     toggleTyping();
-  //   }, 3000);
-  // }, []);
 
   return (
     <section className="py-5">
