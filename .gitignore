@@ -30,7 +30,6 @@ x86/
 # Ignore dependencies installed via package managers
 npm-debug.log
 yarn-error.log
-/package-lock.json
 /yarn.lock
 
 # Ignore OS-generated files
@@ -62,7 +61,6 @@ Thumbs.db
 *.zip
 *.rar
 *.swp
-*.json
 *.sublime-*
 
 # Ignore database files
