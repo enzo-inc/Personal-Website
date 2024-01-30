@@ -1,6 +1,6 @@
 // bio.tsx
 export const bioText = `
-  Hi there, I'm Enzo. I am software engineer with a background in artificial intelligence and distributed systems.
+  Hi there, I'm Enzo. I am a software engineer with a background in artificial intelligence and distributed systems.
 
   I completed my BSc from the University of Edinburgh in Artificial Intelligence and Software Engineering in 2022, followed by a MSc in Financial Technology from the UCL Centre for Blockchain Technologies in 2023.
   
