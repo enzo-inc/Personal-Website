@@ -41,7 +41,7 @@ export const MainContent = () => {
         >
         </TypeAnimation>
 
-        {/* Divider appears when main content has been tpyed */}
+        {/* Divider appears when main content has been typed */}
         <div 
           style={{ 
             borderBottom: !typing ? '2px solid black' : 'none', 

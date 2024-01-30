@@ -1,12 +1,12 @@
 // bio.tsx
 export const bioText = `
-  However brief your coffee ritual, it sets the tone for your day. It’s rituals like these that give us a sense of structure, place, and confidence to take on the world. Rituals matter, and great rituals make your life better. That is why we invest so much time perfecting every detail in our customer experience.
+  Hi there, I'm Enzo. I am software engineer with a background in artificial intelligence and distributed systems.
 
-  When we started Blank Street, we set out to reimagine what a coffee shop could be. Serving a clean, natural, and high quality menu to customers at an affordable price.
+  I completed my BSc from the University of Edinburgh in Artificial Intelligence and Software Engineering in 2022, followed by a MSc in Financial Technology from the UCL Centre for Blockchain Technologies in 2023.
+  
+  Since then, I have taken part in the Entrepreneur First graduate cohort in London, where I focused on finding a cofounder and bringing a start-up to life in an high-agency environment. While the journey at Entrepreneur First did not end in a successful venture, I am still working in the entreprenurship space.
 
-  In August 2020, we launched our first store, a tiny coffee cart nestled in the garden of a Brooklyn diner. Our operation was simple and our footprint small, which let us remove costs that didn’t benefit our customers or baristas. This allowed us to source top of the range specialty graded coffees from around the world (like our partners at Origin Coffee Roasters). We serve fresh, locally sourced food, and pay our baristas above market wages.
+  So if you are interested in building world-changing products and are looking for a strong technical cofounder, feel free to reach out.
 
-  Today, we’ve grown since that first Brooklyn coffee cart, opening in London in summer 2022 and with more locations across New York, Boston, and DC. Across them all, we’re striving to make each daily ritual, that little bit better.
-
-  See you in store.
+  I am currently interested in exploring high-social-impact applications of LLMs, specifically in the financial field. I believe that in the next five years the way both individuals and business are going to interact and think about money is going to radically change. This will be enabled by cheap LLMs running on-device and the rise of a new, more fluid digital economy enabled by blockcahin networks. I want to build that future. 
 `;

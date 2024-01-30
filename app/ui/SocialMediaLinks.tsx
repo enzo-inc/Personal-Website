@@ -8,6 +8,7 @@ export const SocialMediaLinks = () => {
   const typingRefLinkedin = React.createRef<HTMLSpanElement>();
   const typingRefTwitter = React.createRef<HTMLSpanElement>();
   const typingRefGithub = React.createRef<HTMLSpanElement>();
+  const typingRefEmail = React.createRef<HTMLSpanElement>();
 
     return (
         <div>
@@ -57,6 +58,25 @@ export const SocialMediaLinks = () => {
               7800,
               "GITHUB",
               () => toggleCursorAnimation(typingRefGithub, false)
+            ]}
+            wrapper="span"
+            speed={1}
+            cursor={false}
+            repeat={0}
+            style={{ display: 'inline-block' }}
+            className={`text-black hover:text-black py-2 rounded-md text-s font-bold underline-link relative typing_animation`}
+          >
+          </TypeAnimation>
+            </a>
+          </div>
+          <div className='py-1'>
+            <a href="mailto:vincenzo.incutti@gmail.com" target="_blank">
+            <TypeAnimation
+            ref={typingRefEmail}
+            sequence={[
+              7800,
+              "EMAIL",
+              () => toggleCursorAnimation(typingRefEmail, false)
             ]}
             wrapper="span"
             speed={1}
