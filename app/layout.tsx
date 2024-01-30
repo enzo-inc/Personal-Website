@@ -1,6 +1,8 @@
 import React from 'react';
 import { roboto, roboto_mono, roboto_condensed, roboto_flex, courierPrime, inter } from '@/app/fonts';
 import './globals.css';
+import { Analytics } from '@vercel/analytics/react';
+
 
 export const metadata = {
   title: 'Enzo Homepage',
@@ -12,6 +14,7 @@ export default function RootLayout({ children } : {children: React.ReactNode}) {
     <html lang="en">
       <body className={`${roboto_mono.className} flex flex-col min-h-screen`}>
         {children}
+        <Analytics />
       </body>
     </html>
   );
