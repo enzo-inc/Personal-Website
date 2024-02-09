@@ -13,7 +13,7 @@ export const Navbar = () => {
   return (
     <nav className="flex items-center justify-between flex-wrap bg-white p-3" style={{backgroundColor:"#fef8f5"}}>
       <div className="w-1/3 flex justify-start">
-        <a href="https://drive.google.com/file/d/1rqjmTBOe7xLWDAyTb8ers8E9hBuyd8To/view?usp=drive_link" target="_blank">
+        <a href="https://drive.google.com/file/d/1cgOPtOIeA9TxeV6tH-w-bN1mdGngupFK/view?usp=sharing" target="_blank">
         <TypeAnimation
             ref={typingRefCV}
             sequence={[
