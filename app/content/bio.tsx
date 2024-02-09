@@ -8,5 +8,4 @@ export const bioText = `
 
   So if you are interested in building world-changing products and are looking for a strong technical cofounder, feel free to reach out.
 
-  I am currently interested in exploring high-social-impact applications of LLMs, specifically in the financial field. I believe that in the next five years the way both individuals and business are going to interact and think about money is going to radically change. This will be enabled by cheap LLMs running on-device and the rise of a new, more fluid digital economy enabled by blockchain networks. I want to build that future. 
-`;
+  I am currently interested in exploring how LLMs can be embedded in everyday digital tasks to reduce friction points and improve human-computer interactions. I believe LLMs will radically change the way we think about the concept of 'work' and enable us to focus on ever-higher levels of abstraction, creativity and innovation.`;
